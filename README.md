@@ -29,3 +29,10 @@ Businesses today strive to connect with customers on a personal level. This proj
 - **Database:** PostgreSQL / MySQL / MongoDB
 - **Deployment:** Docker, AWS / Heroku
 
+# Installation
+
+git clone https://github.com/your-username/personalized-marketing.git
+cd personalized-marketing
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+pip install -r requirements.txt
