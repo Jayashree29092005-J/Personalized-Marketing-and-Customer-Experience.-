@@ -32,19 +32,31 @@ Businesses today strive to connect with customers on a personal level. This proj
 # 📂 Project Structure
 
 ```bash
+
 personalized-marketing/
+
 │
+
 ├── data/                  # Raw and processed data
+
 ├── notebooks/             # Jupyter notebooks for exploration and modeling
+
 ├── models/                # Saved machine learning models
+
 ├── app/                   # API/backend code
+
 │   └── main.py            # Entry point for backend service
+
 ├── frontend/              # Optional UI code
+
 ├── utils/                 # Helper functions and preprocessing scripts
+
 ├── requirements.txt       # Python dependencies
+
 └── README.md              # Project documentation
 
 # Installation
+
 git clone https://github.com/your-username/personalized-marketing.git
 cd personalized-marketing
 python -m venv venv
@@ -52,10 +64,15 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 
 # Running the App
+
 cd app
+
 python main.py
+
 streamlit run app/main.py
+
 # Features
+
 # Customer Segmentation:
 
 Automatically segment customers into meaningful groups based on behavior and demographics (e.g., age, location, purchasing behavior).
